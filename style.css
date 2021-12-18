@@ -2,16 +2,25 @@ body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 margin: 0;
+position: absolute;
 }
 h1{
     font-size:60px;
-    margin: 0px 50px;
+   
+    margin: 0px 20px;
     font-weight: 700;
 }
 h2{
     font-weight: bold;
 }
+.details{
+    margin-top:50px;
+    font-weight: 500;
+   
+}
 .button{
+    margin-top: 52px;
+    padding: 15px 32px;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
@@ -20,13 +29,15 @@ font-weight: 700;
     padding: 15px 32px;
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius:100px;
-    margin:40px;
+   
 }
 .oranged{
     color:rgba(255, 166, 0, 0.974);
+   
 }
 .Identify{
     display:flex;
+    
     margin-bottom: 100px;
 }
 .order-heading img{
@@ -35,7 +46,8 @@ font-weight: 700;
   
 }
 .order-heading{
-    padding:0px 40px;
+   
+    padding:0px 20px;
     margin-top: 150px;
     width:70%;
    
@@ -44,6 +56,7 @@ font-weight: 700;
 #back-color{
     background: rgba(252, 143, 73, 0.1);
     background-image: url(images/shapes/7.png);
+   
 }
 .center-recipie{
     text-align: center;
@@ -61,7 +74,7 @@ font-weight: 700;
 }
 .recipie-title img{
     width: 90%;
-    margin:10px;
+    margin:5px;
     padding: 5px;
 }
 .display{
